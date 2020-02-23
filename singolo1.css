@@ -113,7 +113,7 @@ a {
 }
 
 .carousel__previous {
-    background-image: url(/assets/img/arrow.png);
+    background-image: url(https://zlobnuiya.github.io/singolo/assets/img/arrow.png);
     width: 16px;
     height: 27px;
     left: 41px;
@@ -128,7 +128,7 @@ a {
 }
 
 .carousel__next {
-    background-image: url(/assets/img/arrow.png);
+    background-image: url(https://zlobnuiya.github.io/singolo/assets/img/arrow.png);
     width: 16px;
     height: 27px;
     right: 41px;
