@@ -81,6 +81,7 @@
 
 .menu__link:hover {
     color: #f06c64;
+    transition: 1s;
 }
 
 a {
@@ -98,4 +99,74 @@ a {
     width: 100%;
     height: 594px;
     background-color: #f06c64;
+    -webkit-box-shadow: 0 6px 0 0 rgba(234,103,107,1);
+       -moz-box-shadow: 0 6px 0 0 rgba(234,103,107,1);
+            box-shadow: 0 6px 0 0 rgba(234,103,107,1);
 }
+
+.carousel__content {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+}
+
+.carousel__previous {
+    background-image: url(/assets/img/arrow.png);
+    width: 16px;
+    height: 27px;
+    left: 41px;
+    top: 281px;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    opacity: .4;
+    border: none;    
+    position: absolute;
+}
+
+.carousel__next {
+    background-image: url(/assets/img/arrow.png);
+    width: 16px;
+    height: 27px;
+    right: 41px;
+    top: 281px;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    opacity: .4;
+    border: none;    
+    position: absolute;
+    -webkit-transform: scale(-1, 1);
+       -moz-transform: scale(-1, 1);
+         -o-transform: scale(-1, 1);
+            transform: scale(-1, 1);
+}
+
+.carousel__previous:hover,
+.carousel__next:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.carousel__vertical-img {
+    width: 240px;
+    height: 483px;
+    top: 53px;
+    left: 112px;
+    position: absolute; 
+}
+
+.carousel__horizontal-img {
+    width: 484px;
+    height: 240px;
+    top: 173px;
+    right: 111px;
+    position: absolute;
+}
+
+
+
