@@ -18,7 +18,7 @@
     width: 940px;
     height: 100%;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 4px 40px 0px;
     display: flex;
     justify-content: space-between;
 }
