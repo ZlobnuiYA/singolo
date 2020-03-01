@@ -1,4 +1,13 @@
 .body {
     font-size: 10px;
     font-family: "Lato", Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.portfolio  {
+    max-width: 1020px;
+    padding: 0 40px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
